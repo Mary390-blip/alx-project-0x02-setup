@@ -22,3 +22,22 @@ export default function AboutPage() {
     </div>
   );
 }
+import Header from "@/components/layout/Header";
+import Button from "@/components/common/Button";
+
+export default function AboutPage() {
+  return (
+    <div className="min-h-screen bg-yellow-50">
+      <Header />
+      <main className="flex flex-col items-center justify-center py-20 space-y-6">
+        <h1 className="text-3xl font-bold text-yellow-700">ℹ️ About Us</h1>
+        <p className="text-gray-700">Here are some reusable buttons:</p>
+        <div className="flex gap-4">
+          <Button title="Small" size="small" shape="rounded-sm" />
+          <Button title="Medium" size="medium" shape="rounded-md" />
+          <Button title="Large" size="large" shape="rounded-full" />
+        </div>
+      </main>
+    </div>
+  );
+}
