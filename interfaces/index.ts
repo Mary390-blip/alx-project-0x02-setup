@@ -27,3 +27,16 @@ export interface PostProps {
   title: string;
   content: string; // or "body" if using JSONPlaceholder API
 }
+export interface Address {
+  street: string;
+  suite: string;
+  city: string;
+  zipcode: string;
+}
+
+export interface UserProps {
+  id: number;
+  name: string;
+  email: string;
+  address: Address;
+}
