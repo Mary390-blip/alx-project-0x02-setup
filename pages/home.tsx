@@ -69,3 +69,17 @@ export default function HomePage() {
     </div>
   );
 }
+import Header from "@/components/layout/Header";
+import Card from "@/components/common/Card";
+
+export default function HomePage() {
+  return (
+    <div className="min-h-screen bg-green-50">
+      <Header />
+      <main className="flex flex-col items-center justify-center py-20 space-y-6">
+        <h1 className="text-3xl font-bold text-green-700">🏠 Welcome to the Home Page</h1>
+        <Card title="Sample Card" content="This is an example card inside the Home page." />
+      </main>
+    </div>
+  );
+}
