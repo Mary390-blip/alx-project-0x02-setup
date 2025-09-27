@@ -6,3 +6,19 @@ export default function HomePage() {
     </div>
   );
 }
+import Card from "@/components/common/Card";
+
+export default function HomePage() {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-green-50 space-y-6 py-10">
+      <h1 className="text-3xl font-bold text-green-700">🏠 Welcome to the Home Page</h1>
+      <p className="text-gray-700 mb-6">Below are some reusable cards:</p>
+
+      <div className="flex flex-wrap justify-center gap-6">
+        <Card title="First Card" content="This is the content of the first card." />
+        <Card title="Second Card" content="This is another example of a card component." />
+        <Card title="Third Card" content="Cards are reusable and accept props dynamically!" />
+      </div>
+    </div>
+  );
+}
