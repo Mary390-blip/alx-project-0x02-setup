@@ -1,0 +1,12 @@
+mkdir -p components/layout interfaces public/assets/images
+touch components/layout/Header.tsx interfaces/index.ts
+
+alx-project-2/
+ ┣ components/
+ ┃ ┗ layout/
+ ┃   ┗ Header.tsx
+ ┣ interfaces/
+ ┃ ┗ index.ts
+ ┣ public/
+ ┃ ┗ assets/
+ ┃   ┗ images/
